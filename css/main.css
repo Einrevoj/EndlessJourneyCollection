@@ -1,0 +1,19 @@
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: gold;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Products */
+.special-img:hover img{
+    transform: scale(1.2);
+}
+.special-img img{
+    height: 250px;
+    transition: all 0.3s ease;
+}
